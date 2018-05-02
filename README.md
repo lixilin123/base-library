@@ -2,13 +2,14 @@
 [![npm](https://img.shields.io/npm/v/js-base-methods.svg)](https://www.npmjs.com/package/js-base-methods)
 > [中文文档]()
 ### 1.Introduction
-The github repository encapsulates some common javascript methods;
+This is a github repository that contains a number of commonly used JavaScript methods.
 
 ### 2.Usage
-1. Installation
+**1. Installation**
 - Use the `npm` command to install：`npm install --save js-base-methods`
 - Or copy the contents of the `base_methods.js` file in the root directory into the js file you created yourself.
-2. import
+
+**2. import**
 - Import the methods you need using ES6：`import {METHOD_NAME} from 'js-base-methods'`
 
 ### 3.API
@@ -30,7 +31,7 @@ The github repository encapsulates some common javascript methods;
 ``` javascript
 /**
  * @param obj {object}      // the js object to be judged
- * @return {boolean}        // true is empty, false is not empty.
+ * @return {boolean}        // True is empty, false is not empty.
  */
 ```
 4. The `formatTime` method is used to format time.
