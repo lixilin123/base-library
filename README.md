@@ -5,7 +5,7 @@
 
 ### 2.使用方法
 1. 安装
-- 使用 `npm` 命令安装：`npm install js-base-methods`
+- 使用 `npm` 命令安装：`npm install --save js-base-methods`
 - 或者将根目录下的 `base_methods.js` 文件内容复制到你自己创建的js文件中
 2. 引入
 - 使用ES6的方式引入你所需要的方法：`import {METHOD_NAME} from 'js-base-methods'`
