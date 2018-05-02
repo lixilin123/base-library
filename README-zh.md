@@ -1,6 +1,6 @@
 # base-methods 
 [![npm](https://img.shields.io/npm/v/js-base-methods.svg)](https://www.npmjs.com/package/js-base-methods)
-> [English README.md](https://github.com/lixilin123/base-methods)
+> [English Readme](https://github.com/lixilin123/base-methods)
 ### 1.简介
 本仓库封装了一些前端常用的js方法；
 
