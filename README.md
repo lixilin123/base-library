@@ -5,11 +5,11 @@
 This is a github repository that contains a number of commonly used JavaScript methods.
 
 ### 2.Usage
-1. **Installation**
+1. Installation
 - Use the `npm` command to install：`npm install --save js-base-methods`
 - Or copy the contents of the `base_methods.js` file in the root directory into the js file you created yourself.
 
-2. **import**
+2. import
 - Import the methods you need using ES6：`import {METHOD_NAME} from 'js-base-methods'`
 
 ### 3.API
