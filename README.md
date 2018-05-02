@@ -1,5 +1,5 @@
 # base-methods
-
+[![npm](https://img.shields.io/npm/v/js-base-methods.svg)](https://www.npmjs.com/package/js-base-methods)
 ### 1.简介
 本仓库封装了一些前端常用的js方法；
 
