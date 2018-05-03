@@ -138,4 +138,24 @@ const countDown = (callback,endTime,startTime)=>{
     },1000)
 }
 
-export {getCookie,getUrlParam,objIsEmpty,formatTime,countDown}
+/**
+ * 说明：getMobileOperatingSystem方法用于获取当前操作系统的类型
+ * @return {string} 操作系统类型，如：'Windows Phone','Android','iOS','unknow'
+ */
+const getMobileOperatingSystem = ()=>{
+    const ua = navigator.userAgent || navigator.vendor || window.opera;
+    // 要先判断 windows phone 的ua，因为其ua中包含android字样
+    if (/windows phone/i.test(ua)) {
+        return "Windows Phone";
+    }
+    if (/android/i.test(ua)) {
+        return 'Android';
+    }
+    // window.MSStream 是为了区分iOS和IE11，因为IE11的ua中也植入了iPhone字样
+    if(/iPad|iPhone|iPod/i.test(ua) && !window.MSStream) {
+        return "iOS";
+    }
+    return 'unknown'
+}
+
+export {getCookie,getUrlParam,objIsEmpty,formatTime,countDown,getMobileOperatingSystem}
