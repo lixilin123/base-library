@@ -53,3 +53,9 @@
  * @param startTime {string} 倒计时开始时间，默认为现在，如：2018/5/1
  */
 ```
+6. 方法六：`getMobileOperatingSystem`方法用于获取当前操作系统的类型
+``` javascript
+/**
+ * @return {string} 操作系统类型，如：'Windows Phone','Android','iOS','unknow'
+ */
+```

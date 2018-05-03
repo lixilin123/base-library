@@ -54,3 +54,9 @@ This is a github repository that contains a number of commonly used JavaScript m
  * @param startTime {string}         // countdown start time, such as: 2018/5/1, the default is now.
  */
 ```
+6. The `getMobileOperatingSystem` method is used to get the current operating system type.
+``` javascript
+/**
+ * @return {string}         // operating system type, such as 'Windows Phone','Android','iOS' or 'unknow'
+ */
+```
