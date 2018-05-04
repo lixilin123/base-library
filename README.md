@@ -1,6 +1,6 @@
 # base-methods 
-[![npm](https://img.shields.io/npm/v/js-base-methods.svg)](https://www.npmjs.com/package/js-base-methods)
-[![npm](https://img.shields.io/npm/dt/js-base-methods.svg)](https://www.npmjs.com/package/js-base-methods)
+[![npm](https://img.shields.io/npm/v/js-base-methods.svg)](https://www.npmjs.com/package/js-base-methods)    
+    [![npm](https://img.shields.io/npm/dt/js-base-methods.svg)](https://www.npmjs.com/package/js-base-methods)
 
 > [中文文档](https://github.com/lixilin123/base-methods/blob/master/README-zh.md)
 ### 1.Introduction
